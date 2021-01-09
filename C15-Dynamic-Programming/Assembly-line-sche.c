@@ -53,7 +53,7 @@ void PRINT_STATIONS(int *l1,int *l2,int way,int n)
 	{
 		if(way == 1)
 			way = l1[i];
-		else 
+		else
 			way = l2[i];
 
 		printf("line%d,station%d\n",way,i+1);

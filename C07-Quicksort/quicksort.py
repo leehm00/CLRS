@@ -22,4 +22,4 @@ def partition(items, p, r):
 
 items = [2,5,9,3,7,0,-1]
 quicksort(items, 0, len(items)-1)
-print items
+print (items)
